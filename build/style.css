@@ -1101,7 +1101,8 @@ input:focus {
   background-color: #D1E7EF;
 }
 
-.modal-header, .modal-body {
+.modal-header,
+.modal-body {
   border: none !important;
 }
 
