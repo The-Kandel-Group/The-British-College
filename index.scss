@@ -1255,19 +1255,14 @@ input:focus {
 }
 
 @media (max-width: 992px) {
-    main {
-        ul li {
-            display: none;
-        }
+
+    ul li {
+        display: none;
     }
 
-    .sub-nav {
-        ul li a {
-            display: flex;
-        }
-    }
 
-    
+
+
 
 
     .navtab1 {
@@ -1276,10 +1271,9 @@ input:focus {
         }
     }
 
-    main {
-        ul li:nth-last-child(-n + 2) {
-            display: inline-block;
-        }
+
+    ul li:nth-last-child(-n + 2) {
+        display: inline-block;
     }
 
     .contact {
@@ -1349,29 +1343,31 @@ input:focus {
     background-color: $light-color;
 
 }
-.modal-header, .modal-body {
-            border: none !important;
-        }
 
-        .link-group h2 {
-            font-weight: $font-weight + 300;
-            color: $secondary-color;
-            text-transform: uppercase;
-            font-size: $font-size + 9 ; 
-        }
+.modal-header,
+.modal-body {
+    border: none !important;
+}
 
-        .link-item {
-         
-            color: $secondary-color;
-            padding: $fixed_gap - 2, $fixed_gap - 6;
-            margin-bottom: $fixed_gap - 6;
-            font-size: $font-size + 3;
-            transition:  0.15s ease-in-out, padding-left 0.15s ease-in-out;
-            border-radius: $fixed_gap - 4; 
-            text-decoration: none;
-        }
+.link-group h2 {
+    font-weight: $font-weight + 300;
+    color: $secondary-color;
+    text-transform: uppercase;
+    font-size: $font-size + 9;
+}
 
-        .modal-title {
-           
-            font-weight: $font-weight +200 !important;
-        }
+.link-item {
+
+    color: $secondary-color;
+    padding: $fixed_gap - 2, $fixed_gap - 6;
+    margin-bottom: $fixed_gap - 6;
+    font-size: $font-size + 3;
+    transition: 0.15s ease-in-out, padding-left 0.15s ease-in-out;
+    border-radius: $fixed_gap - 4;
+    text-decoration: none;
+}
+
+.modal-title {
+
+    font-weight: $font-weight +200 !important;
+}
